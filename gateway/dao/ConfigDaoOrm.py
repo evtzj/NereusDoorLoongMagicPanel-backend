@@ -1,6 +1,6 @@
-from Singleton import singletonInit
+from gateway.Singleton import singletonInit
 from gateway.dao.ConfigDaoInterface import ConfigDaoInterface
-from orm.OrmEngine import OrmEngine
+from gateway.orm.OrmEngine import OrmEngine
 from pojo.ApiKey import ApiCredentialCreate, ApiCredentialOrm2pydantic, ApiCredentialUpdate
 from gateway.orm.ApiKeyOrm import ApiCredentialOrm
 from typing import List

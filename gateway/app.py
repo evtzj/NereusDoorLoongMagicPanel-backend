@@ -1,5 +1,5 @@
-from controller.ConfigController import ConfigController
-from controller.SystemInfoController import SystemInfoController
+from gateway.controller.ConfigController import ConfigController
+from gateway.controller.SystemInfoController import SystemInfoController
 from gateway.controller.FileController import FileController
 from gateway.controller.AbstractController import AbstractController
 from gateway.Response import ResponseModel
